@@ -1,0 +1,78 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+.credit {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 20px 20px;
+  background-color: orange;
+  margin: 40px 60px 0 60px;
+  border-radius: 8px;
+  color: #fff;
+
+  &__title {
+    font-size: 20px;
+  }
+
+  &__number {
+    font-size: 30px;
+    padding: 30px 5px;
+    letter-spacing: 2px;
+  }
+
+  &__info {
+    display: inline-flex;
+    justify-content: space-between;
+
+    &__card-holder {
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        font-size: 18px;
+      }
+
+      &__name {
+        font-size: 18px;
+      }
+    }
+
+    &__expires {
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        font-size: 18px;
+      }
+
+      &__date {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.credit-back{
+  min-height: 205px;
+  .cvv{
+    margin: auto;
+    font-size: 18px;
+  }
+}
+.form-row {
+  width: 80px;
+}
+.form{
+  margin-top: 30px;
+}
